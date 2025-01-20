@@ -8177,7 +8177,7 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .topper .icon span {
-      color: #1b9ce3;
+
       font-size: 20px; }
   .topper .text {
     color: rgba(0, 0, 0, 0.7);
@@ -8188,7 +8188,7 @@ h1, h2, h3, h4, h5,
       line-height: 1; }
       .topper .text span:first-child {
         font-weight: 700;
-        color: #000000; }
+        color: #ffffff; }
   .topper .d-block {
     width: 100%; }
   .topper .btn {
@@ -9970,4 +9970,183 @@ textarea.form-control {
 
 .home-slider .btn:hover {
   background: #0056b3;
+}
+
+.ftco-section {
+  padding: 60px 0;
+}
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.custom-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.btn-warning {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e68a00;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    text-align: center !important;
+  }
+
+  .heading-section {
+    text-align: center;
+  }
+
+  .custom-list li {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
+
+.form-control {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-control option {
+  color: #000;
+  background-color: #fff;
+}
+/* Background-ul din partea de sus */
+.bg-top {
+  padding: 10px 0;
+  background-color: #343a40; /* Fundal închis */
+}
+
+/* Iconițele din partea de sus */
+
+/* Text din partea de sus */
+.topper .text span {
+  display: block;
+  font-size: 14px;
+  color: #ffffff; /* Alb */
+}
+
+/* Butonul de Consultanție Gratuită */
+
+/* Navbar sticky */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important; /* Fundal deschis pentru navbar */
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+  text-decoration: underline;
+}
+
+/* Responsivitate pentru mobil */
+@media (max-width: 768px) {
+  .bg-top {
+    text-align: center;
+  }
+  .bg-top {
+    display: none !important;
+  }
+  .topper .text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .btn-warning {
+    width: 100%;
+  }
+  .navbar {
+    padding: 15px 10px;
+  }
+  .wrapper {
+    box-shadow: none;
+  }
+  .block-18 .text {
+    text-align: center;
+  }
+  .ftco-counter .text strong.number:after {
+    display: none;
+  }
+
+}
+
+/* Stilizare pentru butonul de scroll */
+.scroll-to-top {
+  z-index: 999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+/* Arată butonul când pagina este scrollată */
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
 }
