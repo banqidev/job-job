@@ -10154,3 +10154,16 @@ textarea.form-control {
 .font-weight-600{
   font-weight: 600;
 }
+
+.contact-section .block-9 {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+}
+
+
+.contact-section .col-md-6 img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 8px;
+}
