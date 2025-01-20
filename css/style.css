@@ -10167,3 +10167,33 @@ textarea.form-control {
   height: 100%;
   border-radius: 8px;
 }
+
+.faq-section .card {
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section .card-header {
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+}
+
+.faq-section .btn-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.faq-section .btn-link:hover {
+  color:  #00336c;
+}
+
+.faq-section .card-body {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
