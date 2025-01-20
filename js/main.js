@@ -233,6 +233,32 @@ AOS.init({
 		});
 	});
 
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+		anchor.addEventListener('click', function (e) {
+			e.preventDefault();
+
+			const targetElement = document.querySelector(this.getAttribute('href'));
+			if (targetElement) {
+				targetElement.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			}
+		});
+	});
+
+	window.addEventListener('load', () => {
+		const hash = window.location.hash;
+		if (hash) {
+			const targetElement = document.querySelector(hash);
+			if (targetElement) {
+				targetElement.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			}
+		}
+	});
 
 	// magnific popup
 	$('.image-popup').magnificPopup({
