@@ -65,19 +65,25 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
         <a class="navbar-brand text-dark d-lg-none" href="index.html">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Meniu
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item active"><a href="about.html" class="nav-link text-dark font-weight-600">Despre noi</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link text-dark font-weight-600">Servicii HR</a></li>
-                <li class="nav-item"><a href="clients.html" class="nav-link text-dark font-weight-600">Pentru angajatori</a></li>
+                <li class="nav-item active"><a href="about.html" class="nav-link text-dark font-weight-600">Despre
+                    noi</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link text-dark font-weight-600">Servicii HR</a>
+                </li>
+                <li class="nav-item"><a href="clients.html" class="nav-link text-dark font-weight-600">Pentru
+                    angajatori</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link text-dark font-weight-600">Contact</a></li>
-                <li class="nav-item"><a href="faq.html" class="nav-link text-dark font-weight-600">Întrebări frecvente</a></li>
+                <li class="nav-item"><a href="faq.html" class="nav-link text-dark font-weight-600">Întrebări
+                    frecvente</a></li>
                 <!-- Dropdown pentru selecția limbii -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark font-weight-600" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-dark font-weight-600" href="#" id="languageDropdown"
+                       role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selectează limba
                     </a>
                     <div class="dropdown-menu" aria-labelledby="languageDropdown">
@@ -95,7 +101,7 @@
     <i class="icon-arrow-up"></i>
 </button>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/handymen_1.jpg');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -111,7 +117,13 @@
 
 <section class="ftco-section contact-section">
     <div class="container">
-        <h2 class="text-center mb-3">Dacă aveți întrebări<br>vă rugăm să nu ezitați să ne trimiteți un mesaj</h2>
+
+        <div class="text-center mb-4">
+            <h2 class="font-weight-bold mb-3">
+                Trimite-ne un mesaj
+            </h2>
+        </div>
+
         <div class="row justify-content-center">
             <div class="col-md-6 d-flex align-items-start">
                 <div class="contact-info">
@@ -141,26 +153,14 @@
             <div class="col-md-6">
                 <div class="block-9 mb-3">
                     <form action="#" class="bg-light p-4 contact-form">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Numele dumneavoastră">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Email-ul dumneavoastră">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Numărul dumneavoastră de telefon">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <select class="form-control" name="category">
-                                    <option value="">Selectați o categorie</option>
-                                    <option value="general">Întrebări generale</option>
-                                    <option value="support">Suport</option>
-                                    <option value="feedback">Feedback</option>
-                                    <option value="complaint">Reclamații</option>
-                                    <option value="other">Altele</option>
-                                </select>
-                            </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nume">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Telefon">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Subiect">
@@ -179,10 +179,10 @@
     </div>
 </section>
 
-<section class="ftco-section ftco-no-pb ftco-no-pt">
-    <div class="container-fluid px-0">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
+<section class="ftco-section ftco-no-pb ftco-no-pt" style="margin: 0; padding: 0;">
+    <div class="container-fluid px-0" style="max-width: 100%; padding: 0;">
+        <div class="justify-content-center">
+            <div class="col-md-12 px-0">
                 <div id="map" class="bg-white"></div>
             </div>
         </div>
@@ -287,7 +287,6 @@
                 stroke="#F96D00"/>
     </svg>
 </div>
-
 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
