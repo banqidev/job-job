@@ -6449,7 +6449,7 @@ button.bg-dark:focus {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020; } }
+    z-index: 999; } }
 
 .sr-only {
   position: absolute;
@@ -10197,4 +10197,8 @@ textarea.form-control {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 1.25rem;
+}
+
+.z-index{
+  z-index: 999;
 }
